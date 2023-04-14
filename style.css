@@ -24,10 +24,16 @@ header {
     background-color: #1f2937;
 }
 
+.logo {
+    width: 80px;
+    height: auto;
+}
+
 .header-container {
     width: 75%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
