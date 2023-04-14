@@ -63,6 +63,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
     width: 600px;
 }
 
@@ -72,7 +73,7 @@ header {
     background-color: #3882f6;
     color: #F9FAF8;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
     box-shadow: #F9FAF8;
     cursor: pointer;
@@ -161,6 +162,7 @@ img {
     border-radius: 10px;
     background-color: #3882f6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
 }
 
 .cult-button {
@@ -169,9 +171,11 @@ img {
     border-radius: 5px;
     color: #F9FAF8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 800;
     cursor: pointer;
+    height: 60px;
+    width: 100px;
 }
 
 .cult-text {
@@ -214,4 +218,13 @@ p, h3, h2 {
 h2 {
     font-size: 40px;
     color: #1f2937;
+}
+
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 8px;
+    flex-wrap: wrap;
 }
